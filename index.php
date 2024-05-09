@@ -5,6 +5,7 @@
    if (isset($_POST['login']) && !empty($_POST['username']) 
       && !empty($_POST['password'])) {
 //timea ma velkz kar 
+//ano a ano dwadawd
         //connect string do DB
         $servername = "localhost";
         $username = "Klopcekova";
