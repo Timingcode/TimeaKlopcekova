@@ -1,11 +1,9 @@
 <?php
    session_start();   //otvorenie session
-   //jj
+   
     //kontrola ci uz bol potvrdeny formular a ci boli vyplnene obidva udaje aj username aj password
    if (isset($_POST['login']) && !empty($_POST['username']) 
       && !empty($_POST['password'])) {
-//timea ma velkz kar 
-//ano a ano dwadawd
         //connect string do DB
         $servername = "localhost";
         $username = "Klopcekova";
